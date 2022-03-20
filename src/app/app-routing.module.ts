@@ -1,3 +1,4 @@
+import { TestComponent } from './test/test.component';
 import { PeopleListComponent } from './people-list/people-list.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path:'people-list',
     component:PeopleListComponent
+  },
+  {
+    path:'test',
+    component:TestComponent
   }
 ];
 
